@@ -1,9 +1,10 @@
 class RemoteAuthentication {
-  constructor(private readonly url: string) 
-
+  constructor(private readonly url: string) {
+    
+  }
 
   async auth(): Promise<void> {
-    return Promise.reolve()
+    return Promise.resolve()
   }
 }
 
